@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to right top, #1e0631, #490c48);
+}
+main{
+    text-align: center;
+}
+h1{
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 2rem;
+}
+.seccionPrincipal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    background:linear-gradient(to right top, #1a06242a, #2d042e25), url(/images/fondoPelis2.jpeg) ;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+}
+.titLogo{
+    color: white;
+}
+.buscadorPrincipal{
+    height: 50vh;
+}
+.botonRegistro{
+    background-color: #57369f;
+    color: #ffffff;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-decoration: none;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.tituloSection{
+    color: #ffffff;    
+    background-size: cover;
+    background-position: center;
+   /*  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; */
+}
+/* .buscadorPeliculas {
+}    */       
+.inputBuscador {
+    border: 2px solid white;
+    border-radius: 25px;
+    color: #000000;
+    font-size: 1.2rem;
+    height: 50px;
+    outline: none;
+    width: 500px;
+}
+.botonBuscador, .botonTendencias{
+    border-radius: 25px;
+    border: 4px solid rgb(17, 0, 36);
+    color:  rgb(39, 0, 80);
+    background-color: #ff9dfd;
+    height: 50px;
+    outline: none;
+    width: 100px;
+}
+hr {
+    border: 2px solid  #ff9dfd;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+.peliculas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+   
+}
+/* .peliculasTendencia {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10px;
+    
+    width: 8rem;
+     position: relative;
+    overflow: hidden;
+} */
+.imgTendencia {
+    width: 16rem;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.tituloPelicula {
+    /* z-index: 2;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;    
+    transform: translateY(-50%) translateX(-50%); */
+    max-width: 20rem;
+    width: 100%;
+}
+
+footer{
+    background: linear-gradient(to right top, #2d0b3e, #58085a);
+    color: #ffffff;
+}
+/* ----------HTML de Registro------------ */
+.pageRegistro{
+    background-color: #332c44;
+}
+.formRegistro{
+    background-color: #57369f;
+    width: 20vh;
+    height: 20vh;
+    color: #ffffff;
+}
+.fa-brands{
+    color: #ffffff;
+}
+.ancorLogo{
+    color: #ffffff;
+    text-decoration: none;
+}

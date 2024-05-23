@@ -1,16 +1,20 @@
-*{
+*
+{
     margin: 0;
     padding: 0;
     font-family: 'Nunito', sans-serif;
     box-sizing: border-box;
 }
-body{
-    background: linear-gradient(to right top, #1e0631, #490c48);
+body
+{
+    background: linear-gradient(to right top, #11021c, #620c60);
 }
-main{
+main
+{
     text-align: center;
 }
-h1{
+h1
+{
     font-size: 3rem;
     font-weight: 800;
     margin-bottom: 2rem;
@@ -23,7 +27,9 @@ h1{
     text-align: center;
     font-weight: bolder;
     color: rgb(255, 255, 255);
-    background:linear-gradient(to right top, #1a06242a, #2d042e25), url(/images/fondoPelis2.jpeg) ;
+    background:linear-gradient(to right top, #13041b56, #19021a3c), url(/images/fondoPelis2.jpeg) ;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-position: center;
     background-size: cover;
     height: 80vh;
@@ -36,6 +42,8 @@ h1{
 }
 .botonRegistro{
     background-color: #57369f;
+    border: 2px solid rgb(17, 0, 36);
+    border-radius: 20px;
     color: #ffffff;
     padding: 1rem 2rem;
     border-radius: 5px;
@@ -67,8 +75,8 @@ h1{
 }
 .botonBuscador, .botonTendencias{
     border-radius: 25px;
-    border: 4px solid rgb(17, 0, 36);
-    color:  rgb(39, 0, 80);
+    border: 2px solid rgb(17, 0, 36);
+    color:  rgb(58, 5, 78);
     background-color: #ff9dfd;
     height: 50px;
     outline: none;
@@ -136,3 +144,34 @@ footer{
     color: #ffffff;
     text-decoration: none;
 }
+.bg-glass {
+    background-color:  rgba(255, 255, 255, 0.071)!important;
+    backdrop-filter: saturate(100%) blur(30px);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+  }
+  #radius-shape-2 {
+    border-radius: 50%;
+    top: 95px;
+    left:200px ;
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(
+        to right,
+        #9056cf,
+        #dc61fb);
+    overflow: hidden;
+  }
+  #radius-shape-3 {
+    border-radius: 50%;
+    bottom: 1px;
+    right:200px ;
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(
+        to right,
+        #9056cf,
+        #dc61fb
+        );
+    overflow: hidden;
+  }
